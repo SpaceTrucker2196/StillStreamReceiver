@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0F47BD1349540E009F4968 /* StillStreamReceiverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0F47BC1349540E009F4968 /* StillStreamReceiverViewController.xib */; };
+		EE0F47C013497680009F4968 /* bak_RBmagnoilaOpening.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0F47BF13497680009F4968 /* bak_RBmagnoilaOpening.png */; };
+		EE0F47C213497686009F4968 /* bak_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0F47C113497686009F4968 /* bak_circle.png */; };
+		EE0F47C413497694009F4968 /* bak_RBUnseenFlame.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0F47C313497694009F4968 /* bak_RBUnseenFlame.png */; };
+		EE28C0BC133674D5004D92A7 /* bak_infra.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0BB133674D5004D92A7 /* bak_infra.png */; };
+		EE28C0BE133674DC004D92A7 /* bak_sands.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0BD133674DC004D92A7 /* bak_sands.png */; };
+		EE39E2331340265E00A88DC9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE39E2321340265E00A88DC9 /* CoreAudio.framework */; };
+		EE64D931131B539900D42535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE64D930131B539900D42535 /* UIKit.framework */; };
+		EE64D933131B539900D42535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE64D932131B539900D42535 /* Foundation.framework */; };
+		EE64D935131B539900D42535 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE64D934131B539900D42535 /* CoreGraphics.framework */; };
+		EE64D93B131B539900D42535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE64D939131B539900D42535 /* InfoPlist.strings */; };
+		EE64D93E131B539900D42535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE64D93D131B539900D42535 /* main.m */; };
+		EE64D941131B539900D42535 /* StillStreamReceiverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE64D940131B539900D42535 /* StillStreamReceiverAppDelegate.m */; };
+		EE64D944131B539900D42535 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE64D942131B539900D42535 /* MainWindow.xib */; };
+		EE64D947131B539900D42535 /* StillStreamReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE64D946131B539900D42535 /* StillStreamReceiverViewController.m */; };
+		EE64D951131B539A00D42535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE64D930131B539900D42535 /* UIKit.framework */; };
+		EE64D952131B539A00D42535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE64D932131B539900D42535 /* Foundation.framework */; };
+		EE64D953131B539A00D42535 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE64D934131B539900D42535 /* CoreGraphics.framework */; };
+		EE64D95B131B539A00D42535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE64D959131B539A00D42535 /* InfoPlist.strings */; };
+		EE64D95E131B539A00D42535 /* StillStreamReceiverTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EE64D95D131B539A00D42535 /* StillStreamReceiverTests.h */; };
+		EE64D960131B539A00D42535 /* StillStreamReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE64D95F131B539A00D42535 /* StillStreamReceiverTests.m */; };
+		EE64D96B131B53E100D42535 /* Exuviae-Response.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE64D969131B53E100D42535 /* Exuviae-Response.jpg */; };
+		EE64D96C131B53E100D42535 /* StillHomeInterface.png in Resources */ = {isa = PBXBuildFile; fileRef = EE64D96A131B53E100D42535 /* StillHomeInterface.png */; };
+		EE6AC8641336E43C00A11A84 /* games.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC8631336E43C00A11A84 /* games.png */; };
+		EE6AC8661336E45300A11A84 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC8651336E45300A11A84 /* play.png */; };
+		EE6AC8681336E45E00A11A84 /* speechmedia.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC8671336E45E00A11A84 /* speechmedia.png */; };
+		EE6AC86A1336E46500A11A84 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC8691336E46500A11A84 /* speaker.png */; };
+		EE6AC86C1336E46F00A11A84 /* trend.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC86B1336E46F00A11A84 /* trend.png */; };
+		EE6AC86E1336E47D00A11A84 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC86D1336E47D00A11A84 /* pause.png */; };
+		EE6AC8701336E48600A11A84 /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6AC86F1336E48600A11A84 /* newspaper.png */; };
+		EE6AC8891339877C00A11A84 /* StillStreamCurrentStatsJSONReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC8881339877400A11A84 /* StillStreamCurrentStatsJSONReader.m */; };
+		EE6AC8A0133991D300A11A84 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC895133991D300A11A84 /* NSObject+SBJSON.m */; };
+		EE6AC8A1133991D300A11A84 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC897133991D300A11A84 /* NSString+SBJSON.m */; };
+		EE6AC8A2133991D300A11A84 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC899133991D300A11A84 /* SBJSON.m */; };
+		EE6AC8A3133991D300A11A84 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC89B133991D300A11A84 /* SBJsonBase.m */; };
+		EE6AC8A4133991D300A11A84 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC89D133991D300A11A84 /* SBJsonParser.m */; };
+		EE6AC8A5133991D300A11A84 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AC89F133991D300A11A84 /* SBJsonWriter.m */; };
+		EE6DE2A5133C3D9B002C9BB8 /* bak_lake.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2A4133C3D9B002C9BB8 /* bak_lake.png */; };
+		EE6DE2A7133C3DAA002C9BB8 /* NowPlayingBak.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2A6133C3DAA002C9BB8 /* NowPlayingBak.png */; };
+		EE6DE2AC133E3CF8002C9BB8 /* showBak.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2AA133E3CF8002C9BB8 /* showBak.png */; };
+		EE6DE2AD133E3CF8002C9BB8 /* showBakOnAir.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2AB133E3CF8002C9BB8 /* showBakOnAir.png */; };
+		EE6DE2AF133E42F1002C9BB8 /* tableBak.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2AE133E42F1002C9BB8 /* tableBak.png */; };
+		EE6DE2B3133E4D95002C9BB8 /* bak_arcoDesert.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2B0133E4D95002C9BB8 /* bak_arcoDesert.png */; };
+		EE6DE2B4133E4D95002C9BB8 /* bak_paintedDesert.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2B1133E4D95002C9BB8 /* bak_paintedDesert.png */; };
+		EE6DE2B5133E4D95002C9BB8 /* bak_petrified.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE2B2133E4D95002C9BB8 /* bak_petrified.png */; };
+		EE6DE2B8133E5082002C9BB8 /* StillStreamPlaylistRSSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6DE2B7133E5082002C9BB8 /* StillStreamPlaylistRSSReader.m */; };
+		EE813EBD13249341007587EB /* hubble-eagle-nebula-wide-field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE813EBC13249341007587EB /* hubble-eagle-nebula-wide-field.jpg */; };
+		EE813EC013249594007587EB /* StillStreamReceiverWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE813EBF13249594007587EB /* StillStreamReceiverWebView.xib */; };
+		EE943557136A44DE006B6757 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE943556136A44DE006B6757 /* AVFoundation.framework */; };
+		EE943559136A44F9006B6757 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE943558136A44F9006B6757 /* MediaPlayer.framework */; };
+		EE94355B136A4530006B6757 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94355A136A4530006B6757 /* QuartzCore.framework */; };
+		EEB1B8431325E01100E43B9C /* StillHomeInterfaceLit.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB1B8421325E01100E43B9C /* StillHomeInterfaceLit.png */; };
+		EEB1B8461327182B00E43B9C /* ShowCubeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB1B8451327182B00E43B9C /* ShowCubeView.xib */; };
+		EEB1B85113271D5F00E43B9C /* RecentTrackTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1B84F13271D5E00E43B9C /* RecentTrackTableCell.m */; };
+		EEB1B85213271D5F00E43B9C /* RecentTrackTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB1B85013271D5F00E43B9C /* RecentTrackTableCell.xib */; };
+		EEB1B85413271EAB00E43B9C /* trackTableBak.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB1B85313271EAB00E43B9C /* trackTableBak.png */; };
+		EEC041451348C83900E906AB /* ssr_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC041441348C83900E906AB /* ssr_icon.png */; };
+		EEC041471348C84A00E906AB /* ssr_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC041461348C84A00E906AB /* ssr_icon.png */; };
+		EEC122DA132D8499001D6577 /* ShowCubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC122D9132D8499001D6577 /* ShowCubeView.m */; };
+		EEC122DD132DA368001D6577 /* StillStreamUpcomingShowsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC122DC132DA368001D6577 /* StillStreamUpcomingShowsReader.m */; };
+		EEFCC079134AB69800304DD0 /* StillStreamLit.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC078134AB69800304DD0 /* StillStreamLit.png */; };
+		EEFCC07B134ABDEE00304DD0 /* StillStreamDark.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC07A134ABDEE00304DD0 /* StillStreamDark.png */; };
+		EEFCC07E134BFDF500304DD0 /* BackgroundImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCC07D134BFDF400304DD0 /* BackgroundImageManager.m */; };
+		EEFCC094135134AF00304DD0 /* bakGrenCactus.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC08F135134AB00304DD0 /* bakGrenCactus.png */; };
+		EEFCC095135134AF00304DD0 /* bakGrenMonument.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC090135134AC00304DD0 /* bakGrenMonument.png */; };
+		EEFCC096135134AF00304DD0 /* BakGrenPin.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC091135134AC00304DD0 /* BakGrenPin.png */; };
+		EEFCC097135134AF00304DD0 /* bakGrenReach.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC092135134AD00304DD0 /* bakGrenReach.png */; };
+		EEFCC098135134AF00304DD0 /* bakGrenUntitled02.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC093135134AE00304DD0 /* bakGrenUntitled02.png */; };
+		EEFCC09A135134C800304DD0 /* bakRBUntitled02.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC099135134C800304DD0 /* bakRBUntitled02.png */; };
+		EEFCC09C135134D100304DD0 /* bakRBUntitled01.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFCC09B135134D000304DD0 /* bakRBUntitled01.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE64D954131B539A00D42535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE64D923131B539900D42535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE64D92B131B539900D42535;
+			remoteInfo = StillStreamReceiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0F47BC1349540E009F4968 /* StillStreamReceiverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StillStreamReceiverViewController.xib; sourceTree = "<group>"; };
+		EE0F47BF13497680009F4968 /* bak_RBmagnoilaOpening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_RBmagnoilaOpening.png; sourceTree = "<group>"; };
+		EE0F47C113497686009F4968 /* bak_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_circle.png; sourceTree = "<group>"; };
+		EE0F47C313497694009F4968 /* bak_RBUnseenFlame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_RBUnseenFlame.png; sourceTree = "<group>"; };
+		EE28C0BB133674D5004D92A7 /* bak_infra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_infra.png; sourceTree = "<group>"; };
+		EE28C0BD133674DC004D92A7 /* bak_sands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_sands.png; sourceTree = "<group>"; };
+		EE39E2321340265E00A88DC9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreAudio.framework; sourceTree = "<group>"; };
+		EE64D92C131B539900D42535 /* StillStreamReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StillStreamReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE64D930131B539900D42535 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE64D932131B539900D42535 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE64D934131B539900D42535 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE64D938131B539900D42535 /* StillStreamReceiver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StillStreamReceiver-Info.plist"; sourceTree = "<group>"; };
+		EE64D93A131B539900D42535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE64D93C131B539900D42535 /* StillStreamReceiver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StillStreamReceiver-Prefix.pch"; sourceTree = "<group>"; };
+		EE64D93D131B539900D42535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE64D93F131B539900D42535 /* StillStreamReceiverAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StillStreamReceiverAppDelegate.h; sourceTree = "<group>"; };
+		EE64D940131B539900D42535 /* StillStreamReceiverAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StillStreamReceiverAppDelegate.m; sourceTree = "<group>"; };
+		EE64D943131B539900D42535 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EE64D945131B539900D42535 /* StillStreamReceiverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StillStreamReceiverViewController.h; sourceTree = "<group>"; };
+		EE64D946131B539900D42535 /* StillStreamReceiverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StillStreamReceiverViewController.m; sourceTree = "<group>"; };
+		EE64D950131B539A00D42535 /* StillStreamReceiverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StillStreamReceiverTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE64D958131B539A00D42535 /* StillStreamReceiverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StillStreamReceiverTests-Info.plist"; sourceTree = "<group>"; };
+		EE64D95A131B539A00D42535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE64D95C131B539A00D42535 /* StillStreamReceiverTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StillStreamReceiverTests-Prefix.pch"; sourceTree = "<group>"; };
+		EE64D95D131B539A00D42535 /* StillStreamReceiverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StillStreamReceiverTests.h; sourceTree = "<group>"; };
+		EE64D95F131B539A00D42535 /* StillStreamReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StillStreamReceiverTests.m; sourceTree = "<group>"; };
+		EE64D969131B53E100D42535 /* Exuviae-Response.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Exuviae-Response.jpg"; sourceTree = "<group>"; };
+		EE64D96A131B53E100D42535 /* StillHomeInterface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StillHomeInterface.png; sourceTree = "<group>"; };
+		EE6AC8631336E43C00A11A84 /* games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = games.png; sourceTree = "<group>"; };
+		EE6AC8651336E45300A11A84 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		EE6AC8671336E45E00A11A84 /* speechmedia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechmedia.png; sourceTree = "<group>"; };
+		EE6AC8691336E46500A11A84 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		EE6AC86B1336E46F00A11A84 /* trend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trend.png; sourceTree = "<group>"; };
+		EE6AC86D1336E47D00A11A84 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		EE6AC86F1336E48600A11A84 /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
+		EE6AC8871339877100A11A84 /* StillStreamCurrentStatsJSONReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillStreamCurrentStatsJSONReader.h; sourceTree = "<group>"; };
+		EE6AC8881339877400A11A84 /* StillStreamCurrentStatsJSONReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StillStreamCurrentStatsJSONReader.m; sourceTree = "<group>"; };
+		EE6AC893133991D300A11A84 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		EE6AC894133991D300A11A84 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		EE6AC895133991D300A11A84 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		EE6AC896133991D300A11A84 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		EE6AC897133991D300A11A84 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		EE6AC898133991D300A11A84 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		EE6AC899133991D300A11A84 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		EE6AC89A133991D300A11A84 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		EE6AC89B133991D300A11A84 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		EE6AC89C133991D300A11A84 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EE6AC89D133991D300A11A84 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EE6AC89E133991D300A11A84 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EE6AC89F133991D300A11A84 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EE6DE2A4133C3D9B002C9BB8 /* bak_lake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_lake.png; sourceTree = "<group>"; };
+		EE6DE2A6133C3DAA002C9BB8 /* NowPlayingBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NowPlayingBak.png; sourceTree = "<group>"; };
+		EE6DE2AA133E3CF8002C9BB8 /* showBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showBak.png; sourceTree = "<group>"; };
+		EE6DE2AB133E3CF8002C9BB8 /* showBakOnAir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showBakOnAir.png; sourceTree = "<group>"; };
+		EE6DE2AE133E42F1002C9BB8 /* tableBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableBak.png; sourceTree = "<group>"; };
+		EE6DE2B0133E4D95002C9BB8 /* bak_arcoDesert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_arcoDesert.png; sourceTree = "<group>"; };
+		EE6DE2B1133E4D95002C9BB8 /* bak_paintedDesert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_paintedDesert.png; sourceTree = "<group>"; };
+		EE6DE2B2133E4D95002C9BB8 /* bak_petrified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bak_petrified.png; sourceTree = "<group>"; };
+		EE6DE2B6133E5082002C9BB8 /* StillStreamPlaylistRSSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillStreamPlaylistRSSReader.h; sourceTree = "<group>"; };
+		EE6DE2B7133E5082002C9BB8 /* StillStreamPlaylistRSSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StillStreamPlaylistRSSReader.m; sourceTree = "<group>"; };
+		EE813EBC13249341007587EB /* hubble-eagle-nebula-wide-field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hubble-eagle-nebula-wide-field.jpg"; sourceTree = "<group>"; };
+		EE813EBF13249594007587EB /* StillStreamReceiverWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StillStreamReceiverWebView.xib; sourceTree = "<group>"; };
+		EE943556136A44DE006B6757 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE943558136A44F9006B6757 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EE94355A136A4530006B6757 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EEB1B8421325E01100E43B9C /* StillHomeInterfaceLit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StillHomeInterfaceLit.png; sourceTree = "<group>"; };
+		EEB1B8451327182B00E43B9C /* ShowCubeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowCubeView.xib; sourceTree = "<group>"; };
+		EEB1B84E13271D5E00E43B9C /* RecentTrackTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentTrackTableCell.h; sourceTree = "<group>"; };
+		EEB1B84F13271D5E00E43B9C /* RecentTrackTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentTrackTableCell.m; sourceTree = "<group>"; };
+		EEB1B85013271D5F00E43B9C /* RecentTrackTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentTrackTableCell.xib; sourceTree = "<group>"; };
+		EEB1B85313271EAB00E43B9C /* trackTableBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackTableBak.png; sourceTree = "<group>"; };
+		EEC041441348C83900E906AB /* ssr_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ssr_icon.png; sourceTree = "<group>"; };
+		EEC041461348C84A00E906AB /* ssr_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ssr_icon.png; sourceTree = "<group>"; };
+		EEC122D8132D8499001D6577 /* ShowCubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCubeView.h; sourceTree = "<group>"; };
+		EEC122D9132D8499001D6577 /* ShowCubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCubeView.m; sourceTree = "<group>"; };
+		EEC122DB132DA368001D6577 /* StillStreamUpcomingShowsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillStreamUpcomingShowsReader.h; sourceTree = "<group>"; };
+		EEC122DC132DA368001D6577 /* StillStreamUpcomingShowsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StillStreamUpcomingShowsReader.m; sourceTree = "<group>"; };
+		EEFCC078134AB69800304DD0 /* StillStreamLit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StillStreamLit.png; sourceTree = "<group>"; };
+		EEFCC07A134ABDEE00304DD0 /* StillStreamDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StillStreamDark.png; sourceTree = "<group>"; };
+		EEFCC07C134BFDF400304DD0 /* BackgroundImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundImageManager.h; sourceTree = "<group>"; };
+		EEFCC07D134BFDF400304DD0 /* BackgroundImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundImageManager.m; sourceTree = "<group>"; };
+		EEFCC08F135134AB00304DD0 /* bakGrenCactus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakGrenCactus.png; sourceTree = "<group>"; };
+		EEFCC090135134AC00304DD0 /* bakGrenMonument.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakGrenMonument.png; sourceTree = "<group>"; };
+		EEFCC091135134AC00304DD0 /* BakGrenPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BakGrenPin.png; sourceTree = "<group>"; };
+		EEFCC092135134AD00304DD0 /* bakGrenReach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakGrenReach.png; sourceTree = "<group>"; };
+		EEFCC093135134AE00304DD0 /* bakGrenUntitled02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakGrenUntitled02.png; sourceTree = "<group>"; };
+		EEFCC099135134C800304DD0 /* bakRBUntitled02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakRBUntitled02.png; sourceTree = "<group>"; };
+		EEFCC09B135134D000304DD0 /* bakRBUntitled01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakRBUntitled01.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE64D929131B539900D42535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE64D931131B539900D42535 /* UIKit.framework in Frameworks */,
+				EE64D933131B539900D42535 /* Foundation.framework in Frameworks */,
+				EE64D935131B539900D42535 /* CoreGraphics.framework in Frameworks */,
+				EE39E2331340265E00A88DC9 /* CoreAudio.framework in Frameworks */,
+				EE943557136A44DE006B6757 /* AVFoundation.framework in Frameworks */,
+				EE943559136A44F9006B6757 /* MediaPlayer.framework in Frameworks */,
+				EE94355B136A4530006B6757 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE64D94C131B539A00D42535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE64D951131B539A00D42535 /* UIKit.framework in Frameworks */,
+				EE64D952131B539A00D42535 /* Foundation.framework in Frameworks */,
+				EE64D953131B539A00D42535 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE64D921131B539900D42535 = {
+			isa = PBXGroup;
+			children = (
+				EEC041461348C84A00E906AB /* ssr_icon.png */,
+				EE64D936131B539900D42535 /* StillStreamReceiver */,
+				EE64D956131B539A00D42535 /* StillStreamReceiverTests */,
+				EE64D92F131B539900D42535 /* Frameworks */,
+				EE64D92D131B539900D42535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE64D92D131B539900D42535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D92C131B539900D42535 /* StillStreamReceiver.app */,
+				EE64D950131B539A00D42535 /* StillStreamReceiverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE64D92F131B539900D42535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE94355A136A4530006B6757 /* QuartzCore.framework */,
+				EE943558136A44F9006B6757 /* MediaPlayer.framework */,
+				EE943556136A44DE006B6757 /* AVFoundation.framework */,
+				EE39E2321340265E00A88DC9 /* CoreAudio.framework */,
+				EE64D930131B539900D42535 /* UIKit.framework */,
+				EE64D932131B539900D42535 /* Foundation.framework */,
+				EE64D934131B539900D42535 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE64D936131B539900D42535 /* StillStreamReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				EE6AC892133991B800A11A84 /* JSON */,
+				EEB1B8491327191300E43B9C /* images */,
+				EE64D93F131B539900D42535 /* StillStreamReceiverAppDelegate.h */,
+				EE64D940131B539900D42535 /* StillStreamReceiverAppDelegate.m */,
+				EE64D945131B539900D42535 /* StillStreamReceiverViewController.h */,
+				EE64D946131B539900D42535 /* StillStreamReceiverViewController.m */,
+				EEB1B84E13271D5E00E43B9C /* RecentTrackTableCell.h */,
+				EEB1B84F13271D5E00E43B9C /* RecentTrackTableCell.m */,
+				EEC122D8132D8499001D6577 /* ShowCubeView.h */,
+				EEC122D9132D8499001D6577 /* ShowCubeView.m */,
+				EEFCC07C134BFDF400304DD0 /* BackgroundImageManager.h */,
+				EEFCC07D134BFDF400304DD0 /* BackgroundImageManager.m */,
+				EE6DE2B9133E50A9002C9BB8 /* StillStream Feed Readers */,
+				EEB1B84A1327192800E43B9C /* views */,
+				EE64D937131B539900D42535 /* Supporting Files */,
+			);
+			path = StillStreamReceiver;
+			sourceTree = "<group>";
+		};
+		EE64D937131B539900D42535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D938131B539900D42535 /* StillStreamReceiver-Info.plist */,
+				EE64D939131B539900D42535 /* InfoPlist.strings */,
+				EE64D93C131B539900D42535 /* StillStreamReceiver-Prefix.pch */,
+				EE64D93D131B539900D42535 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE64D956131B539A00D42535 /* StillStreamReceiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D95D131B539A00D42535 /* StillStreamReceiverTests.h */,
+				EE64D95F131B539A00D42535 /* StillStreamReceiverTests.m */,
+				EE64D957131B539A00D42535 /* Supporting Files */,
+			);
+			path = StillStreamReceiverTests;
+			sourceTree = "<group>";
+		};
+		EE64D957131B539A00D42535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D958131B539A00D42535 /* StillStreamReceiverTests-Info.plist */,
+				EE64D959131B539A00D42535 /* InfoPlist.strings */,
+				EE64D95C131B539A00D42535 /* StillStreamReceiverTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE6AC892133991B800A11A84 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EE6AC893133991D300A11A84 /* JSON.h */,
+				EE6AC894133991D300A11A84 /* NSObject+SBJSON.h */,
+				EE6AC895133991D300A11A84 /* NSObject+SBJSON.m */,
+				EE6AC896133991D300A11A84 /* NSString+SBJSON.h */,
+				EE6AC897133991D300A11A84 /* NSString+SBJSON.m */,
+				EE6AC898133991D300A11A84 /* SBJSON.h */,
+				EE6AC899133991D300A11A84 /* SBJSON.m */,
+				EE6AC89A133991D300A11A84 /* SBJsonBase.h */,
+				EE6AC89B133991D300A11A84 /* SBJsonBase.m */,
+				EE6AC89C133991D300A11A84 /* SBJsonParser.h */,
+				EE6AC89D133991D300A11A84 /* SBJsonParser.m */,
+				EE6AC89E133991D300A11A84 /* SBJsonWriter.h */,
+				EE6AC89F133991D300A11A84 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		EE6DE2B9133E50A9002C9BB8 /* StillStream Feed Readers */ = {
+			isa = PBXGroup;
+			children = (
+				EEC122DB132DA368001D6577 /* StillStreamUpcomingShowsReader.h */,
+				EEC122DC132DA368001D6577 /* StillStreamUpcomingShowsReader.m */,
+				EE6AC8871339877100A11A84 /* StillStreamCurrentStatsJSONReader.h */,
+				EE6AC8881339877400A11A84 /* StillStreamCurrentStatsJSONReader.m */,
+				EE6DE2B6133E5082002C9BB8 /* StillStreamPlaylistRSSReader.h */,
+				EE6DE2B7133E5082002C9BB8 /* StillStreamPlaylistRSSReader.m */,
+			);
+			name = "StillStream Feed Readers";
+			sourceTree = "<group>";
+		};
+		EEB1B8491327191300E43B9C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCC09B135134D000304DD0 /* bakRBUntitled01.png */,
+				EEFCC099135134C800304DD0 /* bakRBUntitled02.png */,
+				EEFCC08F135134AB00304DD0 /* bakGrenCactus.png */,
+				EEFCC090135134AC00304DD0 /* bakGrenMonument.png */,
+				EEFCC091135134AC00304DD0 /* BakGrenPin.png */,
+				EEFCC092135134AD00304DD0 /* bakGrenReach.png */,
+				EEFCC093135134AE00304DD0 /* bakGrenUntitled02.png */,
+				EE0F47BF13497680009F4968 /* bak_RBmagnoilaOpening.png */,
+				EE28C0BD133674DC004D92A7 /* bak_sands.png */,
+				EE0F47C113497686009F4968 /* bak_circle.png */,
+				EE0F47C313497694009F4968 /* bak_RBUnseenFlame.png */,
+				EE6DE2B0133E4D95002C9BB8 /* bak_arcoDesert.png */,
+				EE6DE2B1133E4D95002C9BB8 /* bak_paintedDesert.png */,
+				EE6DE2B2133E4D95002C9BB8 /* bak_petrified.png */,
+				EE28C0BB133674D5004D92A7 /* bak_infra.png */,
+				EE6DE2A4133C3D9B002C9BB8 /* bak_lake.png */,
+				EEFCC078134AB69800304DD0 /* StillStreamLit.png */,
+				EEFCC07A134ABDEE00304DD0 /* StillStreamDark.png */,
+				EE6DE2AE133E42F1002C9BB8 /* tableBak.png */,
+				EE6DE2AA133E3CF8002C9BB8 /* showBak.png */,
+				EE6DE2AB133E3CF8002C9BB8 /* showBakOnAir.png */,
+				EEC041441348C83900E906AB /* ssr_icon.png */,
+				EE6DE2A6133C3DAA002C9BB8 /* NowPlayingBak.png */,
+				EE6AC86D1336E47D00A11A84 /* pause.png */,
+				EE6AC86B1336E46F00A11A84 /* trend.png */,
+				EE6AC8651336E45300A11A84 /* play.png */,
+				EEB1B85313271EAB00E43B9C /* trackTableBak.png */,
+				EE6AC8631336E43C00A11A84 /* games.png */,
+				EE64D969131B53E100D42535 /* Exuviae-Response.jpg */,
+				EE813EBC13249341007587EB /* hubble-eagle-nebula-wide-field.jpg */,
+				EE6AC86F1336E48600A11A84 /* newspaper.png */,
+				EE6AC8691336E46500A11A84 /* speaker.png */,
+				EE6AC8671336E45E00A11A84 /* speechmedia.png */,
+				EEB1B8421325E01100E43B9C /* StillHomeInterfaceLit.png */,
+				EE64D96A131B53E100D42535 /* StillHomeInterface.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		EEB1B84A1327192800E43B9C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EE0F47BC1349540E009F4968 /* StillStreamReceiverViewController.xib */,
+				EEB1B8451327182B00E43B9C /* ShowCubeView.xib */,
+				EE64D942131B539900D42535 /* MainWindow.xib */,
+				EE813EBF13249594007587EB /* StillStreamReceiverWebView.xib */,
+				EEB1B85013271D5F00E43B9C /* RecentTrackTableCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE64D92B131B539900D42535 /* StillStreamReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE64D963131B539A00D42535 /* Build configuration list for PBXNativeTarget "StillStreamReceiver" */;
+			buildPhases = (
+				EE64D928131B539900D42535 /* Sources */,
+				EE64D929131B539900D42535 /* Frameworks */,
+				EE64D92A131B539900D42535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StillStreamReceiver;
+			productName = StillStreamReceiver;
+			productReference = EE64D92C131B539900D42535 /* StillStreamReceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE64D94F131B539A00D42535 /* StillStreamReceiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE64D966131B539A00D42535 /* Build configuration list for PBXNativeTarget "StillStreamReceiverTests" */;
+			buildPhases = (
+				EE64D94B131B539A00D42535 /* Sources */,
+				EE64D94C131B539A00D42535 /* Frameworks */,
+				EE64D94D131B539A00D42535 /* Resources */,
+				EE64D94E131B539A00D42535 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE64D955131B539A00D42535 /* PBXTargetDependency */,
+			);
+			name = StillStreamReceiverTests;
+			productName = StillStreamReceiverTests;
+			productReference = EE64D950131B539A00D42535 /* StillStreamReceiverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE64D923131B539900D42535 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EE64D926131B539900D42535 /* Build configuration list for PBXProject "StillStreamReceiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE64D921131B539900D42535;
+			productRefGroup = EE64D92D131B539900D42535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE64D92B131B539900D42535 /* StillStreamReceiver */,
+				EE64D94F131B539A00D42535 /* StillStreamReceiverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE64D92A131B539900D42535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE64D93B131B539900D42535 /* InfoPlist.strings in Resources */,
+				EE64D944131B539900D42535 /* MainWindow.xib in Resources */,
+				EE64D96B131B53E100D42535 /* Exuviae-Response.jpg in Resources */,
+				EE64D96C131B53E100D42535 /* StillHomeInterface.png in Resources */,
+				EE813EBD13249341007587EB /* hubble-eagle-nebula-wide-field.jpg in Resources */,
+				EE813EC013249594007587EB /* StillStreamReceiverWebView.xib in Resources */,
+				EEB1B8431325E01100E43B9C /* StillHomeInterfaceLit.png in Resources */,
+				EEB1B8461327182B00E43B9C /* ShowCubeView.xib in Resources */,
+				EEB1B85213271D5F00E43B9C /* RecentTrackTableCell.xib in Resources */,
+				EEB1B85413271EAB00E43B9C /* trackTableBak.png in Resources */,
+				EE28C0BC133674D5004D92A7 /* bak_infra.png in Resources */,
+				EE28C0BE133674DC004D92A7 /* bak_sands.png in Resources */,
+				EE6AC8641336E43C00A11A84 /* games.png in Resources */,
+				EE6AC8661336E45300A11A84 /* play.png in Resources */,
+				EE6AC8681336E45E00A11A84 /* speechmedia.png in Resources */,
+				EE6AC86A1336E46500A11A84 /* speaker.png in Resources */,
+				EE6AC86C1336E46F00A11A84 /* trend.png in Resources */,
+				EE6AC86E1336E47D00A11A84 /* pause.png in Resources */,
+				EE6AC8701336E48600A11A84 /* newspaper.png in Resources */,
+				EE6DE2A5133C3D9B002C9BB8 /* bak_lake.png in Resources */,
+				EE6DE2A7133C3DAA002C9BB8 /* NowPlayingBak.png in Resources */,
+				EE6DE2AC133E3CF8002C9BB8 /* showBak.png in Resources */,
+				EE6DE2AD133E3CF8002C9BB8 /* showBakOnAir.png in Resources */,
+				EE6DE2AF133E42F1002C9BB8 /* tableBak.png in Resources */,
+				EE6DE2B3133E4D95002C9BB8 /* bak_arcoDesert.png in Resources */,
+				EE6DE2B4133E4D95002C9BB8 /* bak_paintedDesert.png in Resources */,
+				EE6DE2B5133E4D95002C9BB8 /* bak_petrified.png in Resources */,
+				EEC041451348C83900E906AB /* ssr_icon.png in Resources */,
+				EEC041471348C84A00E906AB /* ssr_icon.png in Resources */,
+				EE0F47BD1349540E009F4968 /* StillStreamReceiverViewController.xib in Resources */,
+				EE0F47C013497680009F4968 /* bak_RBmagnoilaOpening.png in Resources */,
+				EE0F47C213497686009F4968 /* bak_circle.png in Resources */,
+				EE0F47C413497694009F4968 /* bak_RBUnseenFlame.png in Resources */,
+				EEFCC079134AB69800304DD0 /* StillStreamLit.png in Resources */,
+				EEFCC07B134ABDEE00304DD0 /* StillStreamDark.png in Resources */,
+				EEFCC094135134AF00304DD0 /* bakGrenCactus.png in Resources */,
+				EEFCC095135134AF00304DD0 /* bakGrenMonument.png in Resources */,
+				EEFCC096135134AF00304DD0 /* BakGrenPin.png in Resources */,
+				EEFCC097135134AF00304DD0 /* bakGrenReach.png in Resources */,
+				EEFCC098135134AF00304DD0 /* bakGrenUntitled02.png in Resources */,
+				EEFCC09A135134C800304DD0 /* bakRBUntitled02.png in Resources */,
+				EEFCC09C135134D100304DD0 /* bakRBUntitled01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE64D94D131B539A00D42535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE64D95B131B539A00D42535 /* InfoPlist.strings in Resources */,
+				EE64D95E131B539A00D42535 /* StillStreamReceiverTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE64D94E131B539A00D42535 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE64D928131B539900D42535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE64D93E131B539900D42535 /* main.m in Sources */,
+				EE64D941131B539900D42535 /* StillStreamReceiverAppDelegate.m in Sources */,
+				EE64D947131B539900D42535 /* StillStreamReceiverViewController.m in Sources */,
+				EEB1B85113271D5F00E43B9C /* RecentTrackTableCell.m in Sources */,
+				EEC122DA132D8499001D6577 /* ShowCubeView.m in Sources */,
+				EEC122DD132DA368001D6577 /* StillStreamUpcomingShowsReader.m in Sources */,
+				EE6AC8891339877C00A11A84 /* StillStreamCurrentStatsJSONReader.m in Sources */,
+				EE6AC8A0133991D300A11A84 /* NSObject+SBJSON.m in Sources */,
+				EE6AC8A1133991D300A11A84 /* NSString+SBJSON.m in Sources */,
+				EE6AC8A2133991D300A11A84 /* SBJSON.m in Sources */,
+				EE6AC8A3133991D300A11A84 /* SBJsonBase.m in Sources */,
+				EE6AC8A4133991D300A11A84 /* SBJsonParser.m in Sources */,
+				EE6AC8A5133991D300A11A84 /* SBJsonWriter.m in Sources */,
+				EE6DE2B8133E5082002C9BB8 /* StillStreamPlaylistRSSReader.m in Sources */,
+				EEFCC07E134BFDF500304DD0 /* BackgroundImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE64D94B131B539A00D42535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE64D960131B539A00D42535 /* StillStreamReceiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE64D955131B539A00D42535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE64D92B131B539900D42535 /* StillStreamReceiver */;
+			targetProxy = EE64D954131B539A00D42535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE64D939131B539900D42535 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE64D93A131B539900D42535 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE64D942131B539900D42535 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE64D943131B539900D42535 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EE64D959131B539A00D42535 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE64D95A131B539A00D42535 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE64D961131B539A00D42535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EE64D962131B539A00D42535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		EE64D964131B539A00D42535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey Kunzelman (6PW59RRNK8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeffrey Kunzelman (6PW59RRNK8)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StillStreamReceiver/StillStreamReceiver-Prefix.pch";
+				INFOPLIST_FILE = "StillStreamReceiver/StillStreamReceiver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "691703F1-3D29-40EE-AA2F-2795FBE55612";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "691703F1-3D29-40EE-AA2F-2795FBE55612";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE64D965131B539A00D42535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey Kunzelman (6PW59RRNK8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeffrey Kunzelman (6PW59RRNK8)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StillStreamReceiver/StillStreamReceiver-Prefix.pch";
+				INFOPLIST_FILE = "StillStreamReceiver/StillStreamReceiver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "691703F1-3D29-40EE-AA2F-2795FBE55612";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "691703F1-3D29-40EE-AA2F-2795FBE55612";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE64D967131B539A00D42535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StillStreamReceiver.app/StillStreamReceiver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StillStreamReceiverTests/StillStreamReceiverTests-Prefix.pch";
+				INFOPLIST_FILE = "StillStreamReceiverTests/StillStreamReceiverTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE64D968131B539A00D42535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StillStreamReceiver.app/StillStreamReceiver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StillStreamReceiverTests/StillStreamReceiverTests-Prefix.pch";
+				INFOPLIST_FILE = "StillStreamReceiverTests/StillStreamReceiverTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE64D926131B539900D42535 /* Build configuration list for PBXProject "StillStreamReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE64D961131B539A00D42535 /* Debug */,
+				EE64D962131B539A00D42535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE64D963131B539A00D42535 /* Build configuration list for PBXNativeTarget "StillStreamReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE64D964131B539A00D42535 /* Debug */,
+				EE64D965131B539A00D42535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE64D966131B539A00D42535 /* Build configuration list for PBXNativeTarget "StillStreamReceiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE64D967131B539A00D42535 /* Debug */,
+				EE64D968131B539A00D42535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE64D923131B539900D42535 /* Project object */;
+}

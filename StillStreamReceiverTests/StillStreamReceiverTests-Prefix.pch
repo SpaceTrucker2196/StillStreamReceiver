@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'StillStreamReceiverTests' target in the 'StillStreamReceiverTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
